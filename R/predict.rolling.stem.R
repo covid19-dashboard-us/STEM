@@ -53,7 +53,6 @@ predict.rolling.stem <- function(mfit.infec, mfit.death, data.new, cov.names,
   D_new = dat.pred[,paste0('D_', as.Date(date.est))]
   I_update = I_new
   for(iter in 1:pred.h) {
-    iter = 7
     Y.new.infec = mpred.infec
     Y.new.death = mpred.death
 
