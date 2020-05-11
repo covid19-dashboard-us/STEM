@@ -9,7 +9,8 @@ Imports:
 Depends:
     R (>= 2.10),
     mgcv,
-    BPST
+    BPST,
+    plotly
 Description: This package can help implement the STEM fitting and prediction discussed in the article "Spatiotemporal Dynamics, Nowcasting and Forecasting of COVID-19 in the United States".
 License: GPL (>= 2)
 Encoding: UTF-8

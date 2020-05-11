@@ -1,3 +1,7 @@
+#' Map plotting for Spatio-Temporal Epidemic Model (STEM)
+#'
+#' @import plotly
+#'
 plot.SCB <- function(x0, est, upper, lower, main = '', xlab = '',
     ylim = c(min(lower),max(upper)), true = NULL){
   plot(x0, est, type = 'l', main = main, ylim = ylim, ylab = '',
